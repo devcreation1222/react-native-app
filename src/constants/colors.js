@@ -1,0 +1,108 @@
+const COLOR_1 = '#f6e9c7';
+const COLOR_2 = '#234';
+const COLOR_3 = '#444';
+const COLOR_4 = '#67998c';
+const COLOR_5 = '#e1e5e5';
+const COLOR_6 = '#e1421d';
+const COLOR_7 = '#222830';
+const COLOR_8 = '#f3f3f3';
+const COLOR_9 = '#9e7c40';
+const COLOR_10 = '#3097bf';
+const COLOR_11 = '#ff9b37';
+const COLOR_12 = '#85958b';
+const COLOR_13 = '#401539';
+const COLOR_14 = '#f26d7d';
+const COLOR_15 = '#87CEEB';
+const COLOR_16 = '#608341';
+const COLOR_17 = '#ffc05c';
+const COLOR_18 = '#e13636';
+const COLOR_19 = '#441e57';
+const COLOR_20 = '#2a571e';
+const COLOR_21 = '#8393ca';
+const COLOR_22 = '#bbb';
+const COLOR_23 = '#e5c395';
+const COLOR_24 = '#dbba8f';
+
+// TEXT
+const TEXT = {
+  TEXT_1: COLOR_1,
+  TEXT_2: COLOR_3,
+  TEXT_3: COLOR_4,
+  TEXT_4: COLOR_2,
+  TEXT_5: COLOR_22,
+  TEXT_6: COLOR_12,
+  LINK_1: COLOR_23,
+  LINK_2: COLOR_9,
+  TEXT_SELECTED_1: COLOR_24,
+  BUTTON_TEXT_1: COLOR_8,
+};
+
+const BACKGROUND = {
+  BACKGROUND_1: COLOR_5,
+  BACKGROUND_2: COLOR_8,
+  BACKGROUND_3: COLOR_4,
+  BACKGROUND_4: COLOR_23,
+  BACKGROUND_5: COLOR_24,
+};
+
+const FONT = {
+  // FONTS
+  SIZE: {
+    XS: 10,
+    S: 12,
+    M: 16,
+    L: 18,
+    XL: 20,
+    XXL: 24,
+    XXXL: 30,
+  },
+  FAMILY: {
+    FONT_FAMILY_1: 'Archeologicaps',
+  },
+};
+
+const HEROES_COLORS = {
+  MINOR_FIGURE_PRIMARY: COLOR_1,
+  PRIMORDIAL_DEITY_PRIMARY: COLOR_24,
+  DEMIGOD_PRIMARY: COLOR_4,
+  GIANT_PRIMARY: COLOR_5,
+  TITAN_PRIMARY: COLOR_6,
+  KING_PRIMARY: COLOR_7,
+  SEA_DEITY_PRIMARY: COLOR_10,
+  DEITY_PRIMARY: COLOR_11,
+  CHTHONIC_DEITY_PRIMARY: COLOR_12,
+  GOD_PRIMARY: COLOR_13,
+  NYMPH_PRIMARY: COLOR_14,
+  SKY_DEITY_PRIMARY: COLOR_15,
+  RUSTIC_DEITY_PRIMARY: COLOR_16,
+  HERO_PRIMARY: COLOR_17,
+  DEIFIED_MORTAL_PRIMARY: COLOR_17,
+  HEALTH_DEITY_PRIMARY: COLOR_18,
+  CREATURE_PRIMARY: COLOR_19,
+  AMAZON_PRIMARY: COLOR_20,
+  SEER_ORACLE_PRIMARY: COLOR_21,
+};
+
+// ERRORS, WARNING, ALRIGHT
+const ERROR = {
+  TEXT: COLOR_6,
+  BORDER: COLOR_6,
+  BACKGROUND: COLOR_6,
+};
+
+export {
+  TEXT,
+  BACKGROUND,
+  FONT,
+  HEROES_COLORS,
+  ERROR,
+};
+
+export const BORDER = COLOR_5;
+export const BORDER_2 = COLOR_24;
+export const SHADOW_1 = COLOR_9;
+export const SHADOW_2 = COLOR_5;
+
+// SIZING
+export const NAVBAR_HEIGHT = 64;
+export const TABBAR_HEIGHT = 50;
